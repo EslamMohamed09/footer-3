@@ -155,10 +155,12 @@ body {overflow-x:hidden;}
 /****************** 
   # Footer
 ******************/
-.main-footer {background:linear-gradient(to right, #00093c, #3d1001);
-              color:#fff;
-              border-top-left-radius:5rem;
-              padding-top:5rem;}
+footer {background:linear-gradient(to right, #00093c, #3d1001);
+        color:#fff;
+        border-top-left-radius:5rem;
+        padding-top:5rem;}
+
+.main-footer {margin-bottom:2rem;}
 
 .footer-widget {margin-bottom:1.5rem;}
 
@@ -214,7 +216,7 @@ footer .underline span {height:100%;
 .footer-widget-3 ul li {margin:0.8rem 0;}
 
 /* col-4 */
-.main-footer .footer-widget form {display:flex;
+footer .footer-widget form {display:flex;
                                   justify-content:space-between;
                                   align-items:center;
                                   border-bottom:1px solid #777;}
@@ -222,22 +224,22 @@ footer .underline span {height:100%;
 .fa-envelope {margin-right:0.8rem;
               font-size:1.2rem;}
 
-.main-footer .footer-widget form input {width:100%;
+footer .footer-widget form input {width:100%;
                                         background:transparent;
                                         color:#999;
                                         outline:none;
                                         border:none;
                                         padding:0.3rem 0.5rem;}
 
-.main-footer .footer-widget form .fa-arrow-right {cursor:pointer;}
+footer .footer-widget form .fa-arrow-right {cursor:pointer;}
 
-.main-footer .footer-widget .social-icons {margin-top:1rem;}
+footer .footer-widget .social-icons {margin-top:1rem;}
 
-.main-footer .footer-widget .social-icons ul {display:flex;}
+footer .footer-widget .social-icons ul {display:flex;}
 
-.main-footer .footer-widget .social-icons ul li {margin-right:0.4rem;}
+footer .footer-widget .social-icons ul li {margin-right:0.4rem;}
 
-.main-footer .footer-widget .social-icons ul li a {color:rgb(161, 161, 161);
+footer .footer-widget .social-icons ul li a {color:rgb(161, 161, 161);
                                                    background-color:#333232;
                                                    display:block;
                                                    width:2.3rem;
@@ -264,13 +266,13 @@ footer .footer-widget .social-icons ul li:nth-child(5):hover a {color:green;}
 footer hr {width:100%;
            margin:1rem auto 0;}
 
-.main-footer .footer-bottom {padding:1rem 0;}
+footer .footer-bottom {padding:1rem 0;}
 
-.main-footer .footer-bottom .copyright {font-size:1.1rem;}
+footer .footer-bottom .copyright {font-size:1.1rem;}
 
-.main-footer .footer-bottom .copyright span {color:orange;}
+footer .footer-bottom .copyright span {color:orange;}
 
-.main-footer .footer-bottom .policy a {color:#fff;
+footer .footer-bottom .policy a {color:#fff;
                                        font-size:0.9rem;}
 
 
